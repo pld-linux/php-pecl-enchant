@@ -1,15 +1,15 @@
 %define		_modname	enchant
-%define		_status		beta
+%define		_status		stable
 
 Summary:	%{_modname} - libenchant binder
 Summary(pl):	%{_modname} - dowi±zania biblioteki libenchant
 Name:		php-pecl-%{_modname}
-Version:	0.2.1
+Version:	1.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	3d4d57692803165e51eebe6cc8df175e
+# Source0-md5:	c8fd6f0d8f2b25bc23ab6472d8ac5232
 URL:		http://pecl.php.net/package/enchant/
 BuildRequires:	enchant-devel
 BuildRequires:	libtool
