@@ -1,8 +1,8 @@
 %define		_modname	enchant
 %define		_status		beta
 
-Summary:	%{_modname} - libenchant binder, support near all spelling tools
-#Summary(pl):	%{_modname} - 
+Summary:	%{_modname} - libenchant binder
+Summary(pl):	%{_modname} - dowi±zania biblioteki libenchant
 Name:		php-pecl-%{_modname}
 Version:	0.2.1
 Release:	1
@@ -33,9 +33,17 @@ A plugin system allows to add custom spell support.
 
 This extension has in PEAR status: %{_status}.
 
-#%description -l pl
-#
-#To rozszerzenie ma w PEAR status: %{_status}.
+%description -l pl
+Enchant jest dowi±zaniem do biblioteki libenchant, która udostêpnia
+ujednolicone API dla wielu narzêdzi sprawdzaj±cych pisowniê:
+- aspell/pspell (w zamierzeniu ma zast±piæ ispell)
+- hspell (hebrajski)
+- ispell
+- myspell (projekt OpenOffice, mozilla)
+- uspell (g³ównie Jidysz, Hebrajski oraz jêzyki wschodnioeuropejskie)
+System wtyczek pozwala na dodanie wsparcia dla kolejnych narzêdzi.
+
+To rozszerzenie ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
