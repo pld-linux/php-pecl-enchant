@@ -31,7 +31,7 @@ API for many spell libraries:
 - uspell (primarily Yiddish, Hebrew, and Eastern European languages)
 A plugin system allows to add custom spell support.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 Enchant jest dowi±zaniem do biblioteki libenchant, która udostêpnia
@@ -43,7 +43,7 @@ ujednolicone API dla wielu narzêdzi sprawdzaj±cych pisowniê:
 - uspell (g³ównie Jidysz, Hebrajski oraz jêzyki wschodnioeuropejskie)
 System wtyczek pozwala na dodanie wsparcia dla kolejnych narzêdzi.
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
