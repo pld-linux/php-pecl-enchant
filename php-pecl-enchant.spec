@@ -27,7 +27,7 @@ API for many spell libraries:
 - aspell/pspell (intended to replace ispell)
 - hspell (hebrew)
 - ispell
-- myspell (OpenOffice project, mozilla)
+- myspell (OpenOffice.org project, mozilla)
 - uspell (primarily Yiddish, Hebrew, and Eastern European languages)
 A plugin system allows to add custom spell support.
 
@@ -39,7 +39,7 @@ ujednolicone API dla wielu narzêdzi sprawdzaj±cych pisowniê:
 - aspell/pspell (w zamierzeniu ma zast±piæ ispell)
 - hspell (hebrajski)
 - ispell
-- myspell (projekt OpenOffice, mozilla)
+- myspell (projekt OpenOffice.org, mozilla)
 - uspell (g³ównie Jidysz, Hebrajski oraz jêzyki wschodnioeuropejskie)
 System wtyczek pozwala na dodanie wsparcia dla kolejnych narzêdzi.
 
