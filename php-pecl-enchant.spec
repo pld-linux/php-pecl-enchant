@@ -10,7 +10,7 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	3d4d57692803165e51eebe6cc8df175e
-URL:		http://pecl.php.net/package/Modname/
+URL:		http://pecl.php.net/package/enchant/
 BuildRequires:	enchant-devel
 BuildRequires:	libtool
 BuildRequires:	php-devel
