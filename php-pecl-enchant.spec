@@ -22,14 +22,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		extensionsdir	%{_libdir}/php
 
 %description
-Enchant is a binder for libenchant. Libenchant provides a common
-API for many spell libraries:
+Enchant is a binder for libenchant. Libenchant provides a common API
+for many spell libraries:
 - aspell/pspell (intended to replace ispell)
 - hspell (hebrew)
 - ispell
 - myspell (OpenOffice.org project, mozilla)
-- uspell (primarily Yiddish, Hebrew, and Eastern European languages)
-A plugin system allows to add custom spell support.
+- uspell (primarily Yiddish, Hebrew, and Eastern European languages) A
+  plugin system allows to add custom spell support.
 
 In PECL status of this package is: %{_status}.
 
@@ -41,7 +41,7 @@ ujednolicone API dla wielu narzêdzi sprawdzaj±cych pisowniê:
 - ispell
 - myspell (projekt OpenOffice.org, mozilla)
 - uspell (g³ównie Jidysz, Hebrajski oraz jêzyki wschodnioeuropejskie)
-System wtyczek pozwala na dodanie wsparcia dla kolejnych narzêdzi.
+  System wtyczek pozwala na dodanie wsparcia dla kolejnych narzêdzi.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
