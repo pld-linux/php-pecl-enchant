@@ -12,7 +12,6 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	c8fd6f0d8f2b25bc23ab6472d8ac5232
 URL:		http://pecl.php.net/package/enchant/
 BuildRequires:	enchant-devel
-BuildRequires:	libtool
 BuildRequires:	php-devel
 Requires:	php-common
 Obsoletes:	php-pear-%{_modname}
