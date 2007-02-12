@@ -1,7 +1,7 @@
 %define		_modname	enchant
 %define		_status		stable
 Summary:	%{_modname} - libenchant binder
-Summary(pl.UTF-8):   %{_modname} - dowiązania biblioteki libenchant
+Summary(pl.UTF-8):	%{_modname} - dowiązania biblioteki libenchant
 Name:		php-pecl-%{_modname}
 Version:	1.0.1
 Release:	1
