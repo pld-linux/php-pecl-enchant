@@ -1,7 +1,7 @@
 %define		_modname	enchant
 %define		_status		stable
 Summary:	%{_modname} - libenchant binder
-Summary(pl):	%{_modname} - dowi±zania biblioteki libenchant
+Summary(pl.UTF-8):   %{_modname} - dowiÄ…zania biblioteki libenchant
 Name:		php-pecl-%{_modname}
 Version:	1.0.1
 Release:	1
@@ -30,15 +30,15 @@ for many spell libraries:
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-Enchant jest dowi±zaniem do biblioteki libenchant, która udostêpnia
-ujednolicone API dla wielu narzêdzi sprawdzaj±cych pisowniê:
-- aspell/pspell (w zamierzeniu ma zast±piæ ispell)
+%description -l pl.UTF-8
+Enchant jest dowiÄ…zaniem do biblioteki libenchant, ktÃ³ra udostÄ™pnia
+ujednolicone API dla wielu narzÄ™dzi sprawdzajÄ…cych pisowniÄ™:
+- aspell/pspell (w zamierzeniu ma zastÄ…piÄ‡ ispell)
 - hspell (hebrajski)
 - ispell
 - myspell (projekt OpenOffice.org, mozilla)
-- uspell (g³ównie Jidysz, Hebrajski oraz jêzyki wschodnioeuropejskie)
-  System wtyczek pozwala na dodanie wsparcia dla kolejnych narzêdzi.
+- uspell (gÅ‚Ã³wnie Jidysz, Hebrajski oraz jÄ™zyki wschodnioeuropejskie)
+  System wtyczek pozwala na dodanie wsparcia dla kolejnych narzÄ™dzi.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
