@@ -3,12 +3,12 @@
 Summary:	%{_modname} - libenchant binder
 Summary(pl.UTF-8):	%{_modname} - dowiązania biblioteki libenchant
 Name:		php-pecl-%{_modname}
-Version:	1.0.2
+Version:	1.1.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	9c6b5cc4fba3a722cf7ff7c750eacaee
+# Source0-md5:	88a9ebc2fed2f568181c55bd61e12e03
 URL:		http://pecl.php.net/package/enchant/
 BuildRequires:	enchant-devel
 BuildRequires:	php-devel >= 3:5.0.0
